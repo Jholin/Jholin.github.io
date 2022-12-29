@@ -242,6 +242,9 @@ footer a:hover {
 
 /* Responsive Breakpoint */
 @media screen and (max-width: 768px) {
+    body {
+        font-size: 0.8em;
+    }
     .sticky {
         padding-bottom: 0;
         width: 100%;
