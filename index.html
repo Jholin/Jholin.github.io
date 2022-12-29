@@ -1,150 +1,139 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahu</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="top">
+                <div class="brand">
+                    <h1>Artikel Tahu</h1> 
+                </div>
+                <nav>
+                    <ul class="menu-list">
+                        <li><a href="#sejarah">Sejarah</a></li>
+                        <li><a href="#manfaat">Manfaat</a></li>
+                        <li><a href="#pembuatan">Pembuatan</a></li>
+                        <li><a href="#profile">Profile</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
 
-    <!-- my CSS -->
-    <link rel="stylesheet" href="css/style.css">
+            <div class="hero">
+                <h2>Tahu Putih</h1>
+                <p>Artikel tentang tahu agar kamu tahu</p>
+            </div>
+        </header>
     
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <title>Web Programming UNPAS</title>
-  </head>
-
-  <body>
-
-    <!-- navbar -->
-    <div class="navbar-fixed">
-      <nav class="blue darken-2">
-        <div class="container">
-          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">WPU</a>
-            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="">About Us</a></li>
-              <li><a href="">Clients</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Portfolio</a></li>
-              <li><a href="">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-
-    <!-- sidenav -->
-    <ul class="sidenav" id="mobile-nav">
-      <li><a href="">About Us</a></li>
-      <li><a href="">Clients</a></li>
-      <li><a href="">Services</a></li>
-      <li><a href="">Portfolio</a></li>
-      <li><a href="">Contact Us</a></li>
-    </ul>
-
-    <!-- slider -->
-    <div class="slider">
-      <ul class="slides">
-        <li>
-          <img src="img/slider/1.png">
-          <div class="caption left-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-        <li>
-          <img src="img/slider/2.png">
-          <div class="caption right-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-        <li>
-          <img src="img/slider/3.png">
-          <div class="caption center-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <!-- About Us -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row">
-          <h3 class="center light grey-text text-darken-3">About Us</h3>
-          <div class="col m6 light">
-            <h5>We Are Professionals</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quo accusantium repellat similique ipsa doloribus in aliquam earum eaque, possimus necessitatibus sunt repellendus ullam recusandae voluptas dolore debitis saepe facere.</p>
-          </div>
-          <div class="col m6 light">
-            <p>WEB DEVELOPMENT</p>
-            <div class="progress">
-                <div class="determinate blue" style="width: 95%"></div>
-            </div>
-            <p>MOBILE APP DEVELOPMENT</p>
-            <div class="progress">
-                <div class="determinate blue" style="width: 85%"></div>
-            </div>
-            <p>GAME DEVELOPMENT</p>
-            <div class="progress">
-                <div class="determinate blue" style="width: 90%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        <main class="main">
+            <div class="content">
+                <article id="sejarah" class="card">
+                    <h2 id="sejarah">Sejarah</h2>
+                    <img src="assets/ancientTofu1.jpg" class="featured-image"alt="Sejarah">
+                    <p>Menurut situs <a target="_blank" href="https://www.kompas.com/skola/read/2020/02/09/170000969/sejarah-tahu-bukan-dari-indonesia?page=all">Kompas.com</a>, teori paling umum menyatakan bahwa tahu kedelai pertama kali ditemukan di China Utara sekitar 164 Sebelum Masehi, oleh Lord Liu An seorang pangeran Dinasti Han. Cerita rakyat Tiongkok sering mengaitkan penemuan-penemuan penting dengan tokoh sejarah yang terkenal. Teknik-teknik produksi tahu kedelai mungkin sudah ada jauh sebelum masa ini.
+                    </p>
     
+                    <section>
+                    <h3>Bubur Kacang Kedelai</h3>
+                    <p>Teori lainnya mengatakan bahwa metode untuk memproduksi tahu kedelai ditemukan secara tidak sengaja ketika bubur kacang kedelai rebus dicampur dengan garam laut yang tidak murni. Garam tersebut mengandung garam kalsium dan magnesium yang menyebabkan campuran kedelai mengental dan menghasilkan gel seperti tahu kedelai. Pasalnya susu kedelai telah dimakan dikonsumsi sebagai sup gurih sejak zaman kuno.
+                    </p>
+                    </section>
 
-    <!-- Clients -->
-    <div class="parallax-container">
-      <div class="parallax"><img src="img/slider/4.png"></div>
+                    <section>
+                        <h3>Teknik Mongolia</h3>
+                        <p>Teori ketiga mengatakan bahwa orang China kuno mempelajari metode untuk mengentalkan susu kedelai dengan meniru teknik pengadukan susu dari orang Mongolia atau India Timur. Terlepas dari kemajuan China, tidak ada teknologi atau pengetahuan tentang membudidayakan dan memproses produk susu yang ada dalam masyarakat China kuno. Buktinya, teori ini terletak pada kesamaan etimologis antara istilah China untuk susu fermentasi Mongolia dan istilah doufu atau tahu.</p>
+                    </section>
+                </article>
 
-      <div class="container clients">
-        <h3 class="center light white-text">Our Clients</h3>
-        <div class="row">
-          <div class="col m4 s12 center">
-            <img src="img/clients/gojek.png">
-          </div>
-          <div class="col m4 s12 center">
-            <img src="img/clients/tokopedia.png">
-          </div>
-          <div class="col m4 s12 center">
-            <img src="img/clients/traveloka.png">
-          </div>
-        </div>
-      </div>
+                <article id="manfaat" class="card">
+                    <h2>Manfaat Tahu</h2>
+                    <p>Menurut situs <a target="_blank" href="https://www.alodokter.com/manfaat-tahu-dan-resep-sehat-olahannya">Alodokter.com</a>, Sebagai sumber protein, ada begitu banyak manfaat tahu yang dapat diperoleh. Tak hanya protein, beragam kandungan nutrisi lain di dalamnya juga diketahui baik untuk kesehatan, mulai dari menjaga kekuatan tulang hingga mencegah kanker.</p>
+                    <br>
+                    <p>Selain sebagai sumber protein, tahu juga mengandung beragam nutrisi, seperti karbohidrat, serat, dan lemak. Kandungan asam amino esensial dan berbagai mineral, seperti kalsium, selenium, fosfor, magnesium, dan zat besi, pun dapat ditemukan di dalam tahu.</p>
+                </article>
+
+                <article id="pembuatan" class="card">
+                    <h2>Pembuatan Tahu Putih</h2>
+                    <p>Setelah mengetahui tentang sejarah tahu sekarang kita akan memberitahu proses pembuatannya, tahu merupakan jenis makanan yang sudah tidak asing lagi bagi kita. Rasa yang enak menjadikan tahu sebagai produk yang digemari semua lapisan masyarakat. Meskipun kita sering mengonsumsi tahu, pernahkah kita memikirkan bagaimana makanan tersebut diproduksi? Berikut merupakan proses pembuatan tahu.</p>
+
+                    <section class="list alat-bahan">
+                        <h3>Bahan baku:</h3>
+                        <ul>
+                            <li>Kacang Kedelai</li>
+                            <li>Air</li>
+                            <li>Garam</li>
+                            <li>Cuka</li>
+                        </ul>
+                    </section>
+
+                    <section class="list alat-bahan">
+                        <h3>alat:</h3>
+                        <ul>
+                            <li>Bak Untuk Perendaman Kacang</li>
+                            <li>Mesin Giling(Blender)</li>
+                            <li>Tempat Perebusan</li>
+                            <li>Kain Tipis</li>
+                            <li>Alat Cetak(toples)</li>
+                            <li>Kompor</li>
+                            <li>Bak Untuk Menampung Air Rebusan</li>
+                        </ul>
+                    </section>
+
+                    <section class="list proses">
+                        <h3>Proses Pembuatan</h3>
+                        <ol>
+                            <li>Perendaman</li>
+                            <p>Perendaman dilakukan untuk memperlunak struktur sel kedelai sehingga akan mengurangi energy yang diperlukan selama penggilingan. Selain itu struktur sel yang lunak juga akan mempermudah mengekstrak sari dari ampasnya. Perendaman umum dilakukan berkisar antara 3-4 jam untuk kedelai impor dan 4-5 jam untuk kedelai lokal.</p>
+                            <li>Penggilingan</li>
+                            <p>Proses selanjutnya yaitu penggilingan biji kedelai yang bertujuan untuk memperkecil partikel kedelai sehingga nantinya mudah untuk ekstraksi protein ke dalam susu kedelai.</p>
+                            <li>Pemasakan/perebusan</li>
+                            <p>Jika kedelai selesai dihaluskan, maka bentuk kedelai seperti susu kedelai. Langkah selanjutnya adalah merebus kedelai hingga mendidih. Sebelum kedelai mendidih, siapkan terlebih dahulu air dingin. Air dingin ini digunakan untuk menambahkan rebusan kedelai jika sudah mendidih dan mengeluarkan busa. Karena rebusan kedelai akan muncul busa jika mendidih.
+                                Saat kedelai sudah mendidih dan mengeluarkan busa, tambahkan air dingin sedikit demi sedikit. Lakukan cara tersebut setiap kali busa muncul hingga busa habis. Setelah busa habis, biarkan rebusan kedelai di atas kompor dengan api kecil selama 20 menit. Lalu, matikan kompor dan biarkan rebusan kedelai dingin.
+                                </p>
+                            <li>Penyaringan</li>
+                            <p>Langkah selanjutnya dalam membuat tahu adalah menyaring rebusan kedelai. Setelah kedelai direbus, maka kedelai akan nampak seperti bubur. Bubur kedelai ini harus disaring bubur dan dicampur dengan air asam sambil diaduk secara berlahan-lahan hingga menggumpal.
+                                Peras gumpalan kedelai tersebut hingga airnya keluar semua. Ampas kedelai jangan dibuang. Karena masih bisa dimanfaatkan menjadi makanan. Lalu, air hasil saringan direbus kembali, namun tidak sampai mendidih. Air kedelai tersebut didiamkan hingga menggumpal.
+                                </p>
+                            <li>Pemisahan air</li>
+                            <p>Setelah menggumpal, tahap selanjutnya dalam membuat tahu adalah membuang air yang ada digumpalan tersebut dan menyiapkan cetakan tahu. Karena tahu sudah siap untuk dicetak. Siapkan cetakan tahu sesuai dengan yang diinginkan.
+                                Karena gumpalan calon tahu tersebut bisa dicetak sesuai dengan selera kamu. Namun, pada umumnya tahu dibuat berbentuk kotak saja. Hal ini jauh lebih mudah dibandingkan membuat tahu dengan bentuk lain.
+                                </p>
+                            <li>Pencetakan tahu</li>
+                            <p>
+                                Proses pencetakan menggunakan saringan tahu dan tahu di pres agar tahu lebih padat.  Kamu juga bisa menggunakan cetakan khusus untuk mempermudah kamu dalam mencetak tahu. Biasanya, para pembuat tahu sudah menyediakan cetakan sendiri dalam skala besar untuk mempermudah dalam mencetak. Tahu pun siap dipasarkan.
+                                </p>
+                        </ol>
+                    </section>
+                </article>
+                <div class="clear"></div>
+            </div>
+  
+            <aside>
+                <article id="profile" class="profile card">
+                        <img src="assets/foto.jpeg" alt="Jholin Ibrahimovic">
+                        <h2>Jholin Ibrahimovic</h2>
+                        <p>Pelajar di SMK PGRI 1 BALARAJA</p>
+                        <p>Serang-Banten</p>
+                        <p>Instagram: <a target="_blank" href="http://Instagram.com/_Jholin">@_Jholin</a></p>
+            </aside>
+        </main>
     </div>
-
-
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script>
-      const sideNav = document.querySelectorAll('.sidenav');
-      M.Sidenav.init(sideNav);
-
-      const slider = document.querySelectorAll('.slider');
-      M.Slider.init(slider, {
-        indicators: false,
-        height: 500,
-        transition: 600,
-        interval: 3000
-      });
-
-      const parallax = document.querySelectorAll('.parallax');
-      M.Parallax.init(parallax);
-
-    </script>
-  </body>
+            
+    <footer>
+        <p>&#169; Copyright 2022 | by <a target="_blank" href="http://Instagram.com/_Jholin">Jholin Ibrahimovic</a></p>
+    </footer>
+    
+    <script src="styles/script.js"></script>
+</body>
 </html>
-
-
-
-
-
-
-
