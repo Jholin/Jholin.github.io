@@ -3,6 +3,14 @@ const nav = document.querySelector('nav ul');
 
 menutoggle.addEventListener('click', function() {
     nav.classList.toggle('slide');
+    const navButton = document.querySelectorAll('nav ul li a');
+    const inputNav = document.querySelector('.input-nav')
+    navButton.forEach(e => {
+        e.addEventListener('click',function() {
+            inputNav.checked = false;
+            nav.classList.remove("slide");
+        });
+    })
 });
 
 document.addEventListener('scroll', function() {
