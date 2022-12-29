@@ -25,12 +25,12 @@ body {
     flex-direction: column;
 }   
 .header .top {
-    margin-top: 50px;
+    padding-top: 5px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     justify-content: baseline;
 }
-
 
 /* Brand */
 .brand {
@@ -46,16 +46,21 @@ body {
 
 
 /* Nav */
+
+/* mulai sticky navbar */
 .sticky {
     position: fixed;
-    top: -50px;
     width: 100%;
     background-color: #FDEEDC;
-    padding-top: 10px;
+    padding-bottom: 10px;
     z-index: 2;
-    margin-top: 0;
     width: 90%;
 }
+
+.padding-top {
+    margin-top: 70px;
+}
+/* akhir sticy navbar */
 
 nav {
     width: 70%;
@@ -237,6 +242,12 @@ footer a:hover {
 
 /* Responsive Breakpoint */
 @media screen and (max-width: 768px) {
+    .sticky {
+        padding-bottom: 0;
+    }
+    .header .top {
+        padding-top: 20px;
+    }
     .main {
         flex-direction: column;
     }

@@ -7,10 +7,13 @@ menutoggle.addEventListener('click', function() {
 
 document.addEventListener('scroll', function() {
     const navbar = document.querySelector('.top');
-    const sticky = navbar.offsetTop;
+    const sticky = navbar.offsetTop + 1;
+    const hero = document.querySelector(".hero");
     if (window.scrollY >= sticky) {
         navbar.classList.add("sticky");
+        hero.classList.add("padding-top");
     } else {
         navbar.classList.remove("sticky");
+        hero.classList.remove("padding-top");
     }
 });
