@@ -46,6 +46,17 @@ body {
 
 
 /* Nav */
+.sticky {
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    background-color: #FDEEDC;
+    padding-top: 10px;
+    z-index: 2;
+    margin-top: 0;
+    width: 90%;
+}
+
 nav {
     width: 70%;
     margin-top: 20px;
